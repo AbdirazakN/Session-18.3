@@ -38,11 +38,11 @@ public class Main {
         Person[] people = {
                 new Doctor(0033,"Aisha Junusova", (byte) 18,'f',"junusova11@gmail.com","+996 222 02 02 02",55000),
                 new Driver(0022,"Bilal Baatyrbek uulu", (byte) 15,'m',"bilal25@gmail.com","+996 700 70 70 70",45000),
-                new Programmer(0011,"Azak Nooruzbai uulu", (byte) 20,'m',"jolchuev.00@gmail.com","+996 700 16 45 92",50000)
+                new Programmer(0011,"Almaz Ibraev", (byte) 20,'m',"ibraev.00@gmail.com","+996 700 16 45 92",50000)
         };
-        System.out.println(Arrays.toString(people));
 
         for (Person person:people) {
+            System.out.println();
             System.out.println(person);
             System.out.println("Favorite language:  "+person.favoriteLanguage());
             System.out.print("Favorite sport:  ");

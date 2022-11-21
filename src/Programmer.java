@@ -37,10 +37,7 @@ public class Programmer extends Person implements PersonAble{
     }
 
     @Override
-    public long[] getPeopleOfAllAges(Person[] people) {
-        for (int i = 0; i < people.length; i++){
-            return new long[i];
-        }
-        return new long[people.length];
+    public byte[] getPeopleOfAllAges(Person[] people) {
+        return new byte[]{getAge()};
     }
 }
